@@ -1588,14 +1588,14 @@ bind2maps emacs viins       -- -s "^x^x" hist-complete
 bind2maps emacs viins       -- -s '^xi' insert-unicode-char
 
 # use the new *-pattern-* widgets for incremental history search
-if zrcgotwidget history-incremental-pattern-search-backward; then
-    for seq wid in '^r' history-incremental-pattern-search-backward \
-                   '^s' history-incremental-pattern-search-forward
-    do
-        bind2maps emacs viins vicmd -- -s $seq $wid
-    done
-    builtin unset -v seq wid
-fi
+# if zrcgotwidget history-incremental-pattern-search-backward; then
+#     for seq wid in '^r' history-incremental-pattern-search-backward \
+#                    '^s' history-incremental-pattern-search-forward
+#     do
+#         bind2maps emacs viins vicmd -- -s $seq $wid
+#     done
+#     builtin unset -v seq wid
+# fi
 
 if zrcgotkeymap menuselect; then
     #m# k Shift-tab Perform backwards menu completion
