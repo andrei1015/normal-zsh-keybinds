@@ -3957,7 +3957,7 @@ unfunction grml_status_feature
 # End:
 
 #Personal stuff, I don't know why the fuck these are not default:
-# bindkey -r '^I'
+# bindkey -r '^I' # if I leave this uncommented, tab completion craps itself for some fucking reason
 bindkey -r '^T'
 bindkey -r '^[c'
 bindkey -r '^[[2;3~'
@@ -3969,7 +3969,4 @@ bindkey -r '^[[6;3~'
 
 bindkey '^H' backward-kill-word
 bindkey '^[[3;5~' kill-word
-
-bindkey '^[[1;5C' vi-forward-blank-word
-bindkey '^[[1;5D' vi-backward-blank-word
 

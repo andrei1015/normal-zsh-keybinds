@@ -1,4 +1,4 @@
-# what the fuck is wrong with zsh
+# what the fuck is wrong with this shell??
 
 I found this [here](https://grml.org/zsh/) but it wasn't quite perfect. I didn't even look over it, have absolutely no fucking clue what it does, because I shouldn't have to spend multiple days to stop my shell from crapping itself. Changes I made:
 
