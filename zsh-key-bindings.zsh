@@ -2554,7 +2554,7 @@ function prompt_grml_precmd_worker () {
 # fi
 
 # make sure to use right prompt only when not running a command
-is41 && setopt transient_rprompt
+# is41 && setopt transient_rprompt
 
 # Terminal-title wizardry
 
